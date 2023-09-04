@@ -1,0 +1,1 @@
+# Catatan gabut ~ :ghost:
