@@ -16,6 +16,7 @@ git commit -m "My first commit"
 ```
 heroku create -a example-app
 git remote -v
+git push heroku main
 ```
 note : For an Existing App
 ```
