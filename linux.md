@@ -65,3 +65,4 @@ Jika terjadi eror saat mengakses server silahkan cek ```/var/log/secure``` mengg
 - [Dillion Megida - symslink linux](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/)
 - [Digital ocean - enable access ssh for non-root user](https://www.digitalocean.com/community/questions/how-to-enable-ssh-access-for-non-root-users)
 - [Digital ocean - add an additional user with ssh key access](https://www.digitalocean.com/community/questions/i-want-to-add-an-additional-user-with-ssh-key-access)
+- [Ionos - Deactivating the SSH Root Login](https://www.ionos.com/help/server-cloud-infrastructure/getting-started/important-security-information-for-your-server/deactivating-the-ssh-root-login/)
