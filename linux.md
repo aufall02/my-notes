@@ -45,6 +45,21 @@ ln -s {path to the file or folder to be linked} {the path of the link to be crea
 Jika terjadi eror saat mengakses server silahkan cek ```/var/log/secure``` menggunakann user root. jika terdapat pesan tentang tidak ada di AllowUsers, maka edit file ```/etc/ssh/sshd_config``` lalu tambahkan nama user di bagian AllowUsers.
 
 
+### Disable ssh root login
+- buka file ```sshd_config```
+  ```bash
+  nano /etc/ssh/sshd_config
+  ```
+- edit file ```sshd_config```
+  ```bash
+  PermitRootLogin no #secara default akan yes
+  ```
+- restart ssh service
+  ```bash
+  systemctl restart ssh
+  ```
+
+
 
 ## Referensi
 - [Dillion Megida - symslink linux](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/)
